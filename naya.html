@@ -1,0 +1,18 @@
+<!doctype HTML>
+<html>
+<head>
+<style>
+</style>
+<body>
+<p>This program changes strings</p>
+<button onclick="myfunction()">Press to change</button>
+<p id="harsh">Hola</p>
+<script>
+function myfunction(){
+var str=document.getElementById("harsh").innerHTML;
+var txt=str.replace("Hola","hello");
+document.getElementById("harsh").innerHTML= txt;
+}
+</script>
+</body>
+</html>
